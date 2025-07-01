@@ -14,6 +14,7 @@ Linear Regression
     simple linear regression >straight line ===== y=mx+c
                                                 m:slope
                                                 c:intercept
+                                                x:IV
                                 ek hi independent variable
                                 m and c ki optimal value find out krni h
                                 Best fit line == jiska error kum hoga (least error) (residulas)
@@ -55,5 +56,14 @@ Linear Regression
                                             **Huber Loss: combination of MSE and MAE
                                 
 
-    multiple linaer regression?straight line ==== y=m_1*x_1+m+2*x_2+...m_n*x_n+c
+    multiple linear regression?straight line ==== y=m_1*x_1+m+2*x_2+...m_n*x_n+c
                                                     y=B0+B1x1+B2x2+....e
+
+==>various == how much acctual data differ form the average 
+
+==> kuch ase features jo ki correlation show ni karte........
+===> adjusted R^2
+==> R^2 increase kr deta h
+==> Adjusted R^2=1-(1-R^2)(N-1)/N-P-1
+==> N: Total Points
+==> P: number of independent features
